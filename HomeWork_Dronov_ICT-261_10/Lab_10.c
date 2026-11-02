@@ -35,7 +35,7 @@ void main()
 			risovanie(c, x, y, z);
 			break;
 		case(3):
-			puts("\nПАРАМАЕТРЫ ВАШЕЙ ФИГУРЫ\n");
+			puts("\nПАРАМЕТРЫ ВАШЕЙ ФИГУРЫ\n");
 			parametri(x, y, z);
 			break;
 		case(4):
