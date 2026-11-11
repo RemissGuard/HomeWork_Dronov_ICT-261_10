@@ -1,5 +1,5 @@
-void ploshad(x, y, z);
+void ploshad(int x, int y, int z);
 void opredelenie();
-void sravnenie(x, y, z, X, Y, Z);
-void risovanie(c, x, y, z);
-void parametri(x, y, z);
+void sravnenie(int x, int y, int z, int X, int Y, int Z);
+void risovanie(char c, int x, int y, int z);
+void parametri(int x, int y, int z);

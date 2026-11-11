@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-void risovanie(c, x, y, z)
+void risovanie(char c,int x,int y,int z)
 {
 	int s;
 	s = 0;
@@ -45,7 +45,7 @@ void opredelenie()
 {
 	puts(" вадрат Ч это геометрическа€ фигура: плоский четырЄхугольник, у которого все стороны равны и все углы пр€мые (равны 90 градусам).");
 }
-void ploshad(x, y, z)
+void ploshad(int x,int y,int z)
 {
 	int a = x - y;
 	int f = z - y;
@@ -53,13 +53,13 @@ void ploshad(x, y, z)
 	int S = x*a+p*a+f*z+y*f;
 	printf("ѕлощадь фигуры (закрашенной области) = %d", S);
 }
-void parametri(x, y, z)
+void parametri(int x,int y,int z)
 {
 	printf("ƒлина стороны первого квадрата равна %d\n",x);
 	printf("ƒлина стороны второго квадрата равна %d\n",y);
 	printf("ƒлина стороны третьего квадрата равна %d\n",z);
 }
-void sravnenie(x,y,z,X,Y,Z)
+void sravnenie(int x, int y, int z, int X,int Y, int Z)
 {
 	int a = x - y;
 	int f = z - y;
